@@ -1,0 +1,9 @@
+.hidden-field {
+    display: none;
+}
+.notices .error {
+    color: red;
+}
+.notices .success {
+    color: green;
+}

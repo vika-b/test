@@ -1,0 +1,12 @@
+To load the project:
+1. Clone project from the repository - "git clone https://github.com/vika-b/test.git"
+2. Copy and rename .env.example to .env fill necessary data for the database
+3. Run "composer install"
+
+########################################################################################
+########################################################################################
+########################################################################################
+########################################################################################
+
+The form page is in the index.php file
+All the statistics charts are in statistics.php

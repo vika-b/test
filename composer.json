@@ -1,0 +1,13 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.7",
+        "components/jquery": "^3.2",
+        "twitter/bootstrap": "^3.3",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php faker.php"
+        ]
+    }
+}
