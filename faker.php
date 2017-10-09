@@ -29,7 +29,6 @@ $faker = Faker\Factory::create();
 for ($i=1; $i < 21; $i++) {
 
     $stmt = $dbh->prepare("INSERT INTO form_data (`id`, `email`, `password`, `bday`, `gender`, `discipline`, `discipline-music-style`, `discipline-music-profession`, `discipline-dance-style`, `discipline-dance-profession`) VALUES (
-              :id, 
               :email, 
               :password, 
               :b_day, 
@@ -77,7 +76,6 @@ for ($i=1; $i < 21; $i++) {
             $value_dance_profession = '';
     }
 
-    $stmt->bindParam(':id', $i);
     $stmt->bindParam(':email', $faker->email);
     $stmt->bindParam(':password', $password_hash);
     $stmt->bindParam(':b_day', $faker->date());
